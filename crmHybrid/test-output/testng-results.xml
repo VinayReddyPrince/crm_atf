@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30614" started-at="2018-04-04T09:02:21Z" finished-at="2018-04-04T09:02:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30614" started-at="2018-04-04T09:02:21Z" finished-at="2018-04-04T09:02:52Z">
+      <class name="com.crm.testscripts.AdminTest2">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.crm.testscripts.AdminTest2@1cab0bfb]" name="init" is-config="true" duration-ms="8749" started-at="2018-04-04T09:02:21Z" finished-at="2018-04-04T09:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createLeadsUsingSikuli()[pri:0, instance:com.crm.testscripts.AdminTest2@1cab0bfb]" name="createLeadsUsingSikuli" duration-ms="21838" started-at="2018-04-04T09:02:30Z" finished-at="2018-04-04T09:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadsUsingSikuli -->
+      </class> <!-- com.crm.testscripts.AdminTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

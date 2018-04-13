@@ -1,0 +1,87 @@
+
+<CrmAccountData>
+	<accountdata  id="set1">
+		<accountUserName>testuser1</accountUserName>
+		<accountPhoneNumber>9582145227</accountPhoneNumber>
+		<accountEmail>abc@espocrm.com</accountEmail>
+		<accountWebsite>seleniumhq.com</accountWebsite>
+		<accountStreet>ayodhyanagarcolony</accountStreet>
+		<accountCity>mp</accountCity>
+		<accountState>telangana</accountState>
+		<accountPostalCode>500028</accountPostalCode>
+		<accountCountry>jkl</accountCountry>
+		
+		<accountShippingStreet>nearpolicestation</accountShippingStreet>
+		<accountShippingCity>dharmaram</accountShippingCity>
+		<accountShippingState>telangana</accountShippingState>
+		<accountShippingPostalCode>505416</accountShippingPostalCode>
+		<accountShippingCountry>india</accountShippingCountry>
+		
+		
+contact module:
+		
+		<contactFirstName>vinay</contactFirstName>
+		<contactLastName>reddy</contactLastName>
+		<contactEmail>prince@dada.com</contactEmail>
+		<contactPhoneNumber>9999999999</contactPhoneNumber>
+		<contactStreet>princecolony</contactStreet>
+		<contactCity>dadanagar</contactCity>
+		<contactState>westbengal</contactState>
+		<contactPostalcode>500026</contactPostalcode>
+		<contactCountry>india</contactCountry>
+		
+edit contact:
+		<editContactFirstName>dadagiri</editContactFirstName>
+		<editContactLastName>reddys</editContactLastName>
+		<editContactEmail>princess@dada.com</editContactEmail>
+		<editContactPhoneNumber>9999988888</editContactPhoneNumber>
+		<editContactStreet>princesscolony</editContactStreet>
+		<editContactCity>dadagirinagar</editContactCity>
+		<editContactState>kolkata</editContactState>
+		<editContactPostalcode>200007</editContactPostalcode>
+		<editContactCountry>indiyaaaaaa</editContactCountry>
+		
+lead module:
+		<leadFirstName>myname</leadFirstName>
+		<leadLastName>Sehwag</leadLastName>
+		<leadAccountName>swamy</leadAccountName>
+		<leadEmail>adef@134.com</leadEmail>
+		<leadPhoneType>Mobile</leadPhoneType>
+		<leadPhoneNumber>9988776655</leadPhoneNumber>
+		<leadTitle>HelloTeam</leadTitle>
+		<leadStreet>Jargada</leadStreet>
+		<leadCity>Hyderabad</leadCity>
+		<leadState>Telangana</leadState>
+		<leadPostalCode>500090</leadPostalCode>
+		<leadCountry>India</leadCountry>
+		<leadWebsite>www.uc.com</leadWebsite>
+		<leadOpportunityAmount>66$</leadOpportunityAmount>
+		<leadDescription>HelloTeam</leadDescription>
+		
+email module:
+		<emailTo>prathapm1@gmail.com</emailTo>
+		<emailSubject>myresume</emailSubject>
+		<emailBody>please find the attachment</emailBody>
+
+case module:
+	   <caseName>TestCase66</caseName>
+       <caseStatus>New</caseStatus>
+       <casePriority>Normal</casePriority>
+       <caseType>Question</caseType>
+       <caseDescription>My Testing World</caseDescription>
+       
+ oppurtunities module:
+	   <oppoName>james</oppoName>
+		<oppoStage>Prospecting</oppoStage>
+		<oppoAmount>500</oppoAmount>
+		<oppoProbability>0</oppoProbability>
+		<oppoCloseDate>03/21/2018</oppoCloseDate>
+		<oppoLeadsource>Email</oppoLeadsource>
+		<oppoDescription>goodmorning</oppoDescription>
+	
+	</accountdata>
+	</CrmAccountData>
+	
+	
+	
+	

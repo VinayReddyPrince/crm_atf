@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;crmHybrid/testng-customsuite.xml&apos; to &apos;testng.xml&apos;" description="Rename resource &apos;testng-customsuite.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng-customsuite.xml" name="testng.xml" stamp="1519291040169" updateReferences="true"/>
+</session>

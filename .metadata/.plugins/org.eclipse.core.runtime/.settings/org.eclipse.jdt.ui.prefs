@@ -1,0 +1,22 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
+content_assist_favorite_static_members=org.testng.Assert.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.openqa.selenium.SearchContext"><rhs name\="org.openqa.selenium.firefox.FirefoxDriver"/><rhs name\="org.openqa.selenium.ie.InternetExplorerDriver"/></lhs><lhs name\="org.openqa.selenium.WebDriver"><rhs name\="org.openqa.selenium.firefox.FirefoxDriver"/><rhs name\="org.openqa.selenium.ie.InternetExplorerDriver"/></lhs><lhs name\="org.openqa.selenium.support.ui.ISelect"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="org.openqa.selenium.support.ui.Select"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="org.openqa.selenium.Keys"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileInputStream"/><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileInputStream"/><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.FileInputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="com.crm.objectrepo.CrmOr"><rhs name\="com.crm.objectrepo.CrmOr"/></lhs><lhs name\="com.crm.validators.CrmValidator"><rhs name\="com.crm.validators.CrmValidator"/></lhs><lhs name\="com.crm.configuration.BaseConfiguration"><rhs name\="com.crm.services.CrmService"/></lhs><lhs name\="com.crm.services.CrmService"><rhs name\="com.crm.services.CrmService"/></lhs><lhs name\="java.io.File"><rhs name\="java.io.File"/></lhs><lhs name\="java.awt.Shape"><rhs name\="java.awt.Rectangle"/></lhs><lhs name\="java.awt.geom.Rectangle2D"><rhs name\="java.awt.Rectangle"/></lhs><lhs name\="java.awt.geom.RectangularShape"><rhs name\="java.awt.Rectangle"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.awt.Rectangle"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.awt.Rectangle"><rhs name\="java.awt.Rectangle"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.xml.bind.annotation.XmlAccessType"/></lhs><lhs name\="com.crm.data.CrmAccountData"><rhs name\="com.crm.data.CrmAccountData"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="org.sikuli.script.IScreen"><rhs name\="org.sikuli.script.Screen"/></lhs><lhs name\="org.sikuli.script.Region"><rhs name\="org.sikuli.script.Screen"/></lhs><lhs name\="org.sikuli.script.Screen"><rhs name\="org.sikuli.script.Screen"/></lhs></history>
+content_assist_number_of_computers=21
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

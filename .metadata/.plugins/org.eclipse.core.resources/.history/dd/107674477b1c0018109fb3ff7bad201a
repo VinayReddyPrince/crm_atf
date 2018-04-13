@@ -1,0 +1,129 @@
+package com.crm.testscripts;
+
+
+
+import java.util.List;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.crm.data.AccountsData;
+import com.crm.data.CrmAccountData;
+import com.crm.data.CrmTestData;
+import com.crm.services.CrmService;
+import com.crm.utils.CommonUtils;
+import com.crm.validators.CrmValidator;
+
+public class AdminTest {
+	CrmService cservice = new CrmService();
+	CrmValidator cvalid = new CrmValidator();
+	CrmAccountData cadata = null;
+	List<AccountsData> crmaccountsdata = null;
+	
+	
+	@BeforeClass
+	public void init(){
+		cadata = CrmTestData.accountTestData();
+		crmaccountsdata = cadata.getCaccountdata();
+		cservice.openCrmApplication();
+		cservice.loginCrmApplication("admin", "admin");
+	} 
+//	
+//	@Test (description = "Create an Account with copybilling & without details" , priority = 0)
+//	public void loginCrmWithCopyBliing() throws InterruptedException {
+//		cservice.clickAccountDashboard().clickCreateAccount();
+//		cservice.enterAccountName(crmaccountsdata.get(0).getAccountUserName());
+//		cservice.enterAccountEmail(crmaccountsdata.get(0).getAccountEmail());
+//		cservice.enterAccountPHoneNumber(crmaccountsdata.get(0).getAccountPhoneNumber());
+//		cservice.enterAccountWebsite(crmaccountsdata.get(0).getAccountWebsite());
+//		cservice.enterBillingAddress(crmaccountsdata.get(0).getAccountStreet(),crmaccountsdata.get(0).getAccountCity(), crmaccountsdata.get(0).getAccountState(), crmaccountsdata.get(0).getAccountPostalCode(), crmaccountsdata.get(0).getAccountCountry());
+//	    cservice.copyBilling().clickSavebutton();
+//	    
+//	    cvalid.validateGivenUserAccountDetails(cservice);
+//	  
+//	}
+		//enterAccountEmail().enterAccountPHoneNumber().enterAccountWebsite().enterBillingAddress().copyBilling().clickSavebutton();
+		//CommonUtils.wait(3);
+//		
+		//cservice.clickOnSavedUserNameButton();
+//		//Thread.sleep(2000);
+//		
+//		//cservice.getShipingAddress();
+//		cservice.getCreatedAccountMobileNumber();
+//		cservice.getCreatedAccountEmailAddress();
+//		cservice.getBillingAddress();
+		//cservice.getCreatedAccountBillingAddress();
+		//cservice.getCreatedAccountShippingAddress();
+		//cservice.getLoginUserAccount();
+		//cservice.clickAccountDashboard();
+		//clickExistingNameLink("testuser");
+		//cvalid.validateGivenUserAccountDetails(cservice);
+	@Test (description = "Create an Account with out copybilling & without details" , priority = 1)
+	public void loginCrmWithOutCopyBilling() throws InterruptedException {
+		cservice.clickAccountDashboard().clickCreateAccount();
+		cservice.enterAccountName(crmaccountsdata.get(0).getAccountUserName());
+		cservice.enterAccountEmail(crmaccountsdata.get(0).getAccountEmail());
+		cservice.enterAccountPHoneNumber(crmaccountsdata.get(0).getAccountPhoneNumber());
+		cservice.enterAccountWebsite(crmaccountsdata.get(0).getAccountWebsite());
+		cservice.enterBillingAddress(crmaccountsdata.get(0).getAccountStreet(),crmaccountsdata.get(0).getAccountCity(), crmaccountsdata.get(0).getAccountState(), crmaccountsdata.get(0).getAccountPostalCode(), crmaccountsdata.get(0).getAccountCountry());
+	    cservice.enterShippingAddress(crmaccountsdata.get(0).getAccountShippingStreet(), crmaccountsdata.get(0).getAccountShippingCity(), crmaccountsdata.get(0).getAccountShippingState(), crmaccountsdata.get(0).getAccountShippingPostalCode(), crmaccountsdata.get(0).getAccountShippingCountry());
+	    cservice.clickSavebutton();
+	    cvalid.validateGivenUserAccountDetails(cservice);
+	}
+//	    
+		
+//	@Test (description = "clear saved account details", priority = 2)
+//	public void clearSavedAccountDetails() throws InterruptedException{
+//		Thread.sleep(2000);
+//		cservice.clickAccountDashboard().nameCheckBox().actionsButton().actionsButtonremove();
+//	
+//		
+////		cservice.clickEditButton();
+////		
+//		//cvalid.validateUserLogin(cservice);
+	//}
+////	
+//	@Test (description = "create an account without copyblilling & without details", priority = 0)
+//	public void createAccountWithOutCOpyBilling() throws InterruptedException{
+//		cservice.clickAccountDashboard().clickCreateAccount().enterAccountName().enterAccountEmail().enterAccountPHoneNumber().enterAccountWebsite().enterBillingAddress().enterShippingAddress().clickSavebutton();
+//		//cservice.clickOnSavedUserNameButton();
+//		Thread.sleep(2000);
+//		//cservice.getCreatedAccountEmailAddress();
+//		//cservice.getCreatedAccountMobileNumber();
+////		cservice.getBillingAddress();
+////		cservice.getShipingAddress();
+//		cvalid.validateGivenUserAccountWithoutCopyBilling(cservice);
+//	}
+//	
+	
+//	@Test (description = "create an account and edit that account without copybilling", priority =0)
+//	public void editAccountDetails() throws InterruptedException{
+//		cservice.clickAccountDashboard().clickCreateAccount().enterAccountName().enterAccountEmail().enterAccountPHoneNumber().enterAccountWebsite().enterBillingAddress().enterShippingAddress().clickSavebutton();
+//		
+//		cservice.clickAccountDashboard().clickExistingNameLink().clickEditButton().editAccountBillingAddressWithClearingAndInsertingText().editAccountShippingAddressWithClearingAndInsertingText().clickSavebuttonAfterEdit();
+//		cvalid.validateTheEditedAccountWithoutCopyBilling(cservice);
+//		}
+//	
+//	@Test (description = "clear saved account details", priority = 1)
+//	public void clearSavedAccountDetails() throws InterruptedException{
+//		Thread.sleep(2000);
+//		cservice.clickAccountDashboard().nameCheckBox().actionsButton().actionsButtonremove();
+//	}
+	
+	
+	
+//	public void enterUserDetails(){
+//		cservice.clickAccountDashboard().clickCreateAccount();
+//		cservice.enterAccountName(ctd.accountTestData().getCaccountdata().get(0).getAccountUserName());
+//		
+//	}
+//	
+	
+	
+	
+	}
+	
+	
+	
+
